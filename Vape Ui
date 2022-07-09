@@ -1,3 +1,5 @@
+getgenv().KeyForUi = Enum.KeyCode.RightControl
+
 local lib = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -5,7 +7,7 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local PresetColor = Color3.fromRGB(44, 120, 224)
-local CloseBind = Enum.KeyCode.RightControl
+local CloseBind = getgenv().KeyForUi
 knixhub = game:GetService("CoreGui"):FindFirstChild("Gura Hub")
 local ui = Instance.new("ScreenGui")
 ui.Name = "Gura Hub"
