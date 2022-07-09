@@ -1,3 +1,4 @@
+print("Lib v2.1")
 getgenv().KeyForUi = Enum.KeyCode.RightControl
 
 local lib = {RainbowColorValue = 0, HueSelectionPosition = 0}
